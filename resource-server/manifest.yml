@@ -3,7 +3,6 @@ applications:
  - name: resource-server-sample
    memory: 1G
    instances: 1
-   buildpack: java_buildpack
    path: ./resource-server.jar
    env:
      SKIP_SSL_VALIDATION: "true"
